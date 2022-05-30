@@ -1,6 +1,9 @@
 package com.naumdeveloper.spring;
 
-/*
+
+public class MyDemo {
+
+ /*
 Задание
 1. Есть класс Product (id, название, цена). Товары хранятся в бине ProductRepository, в виде List<Product>,
 при старте в него нужно добавить 5 любых товаров.
@@ -10,6 +13,5 @@ package com.naumdeveloper.spring;
 4. При каждом запросе корзины из контекста, должна создаваться новая корзина.
  */
 
-public class MyDemo {
 
 }
