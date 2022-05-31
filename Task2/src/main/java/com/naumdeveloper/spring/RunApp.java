@@ -18,16 +18,28 @@ public class RunApp {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
-        // операции с корзиной
+        // операции с первой  корзиной
         CartService cartService = context.getBean(CartService.class);
-        System.out.println(cartService.getCurrentCart());
+        System.out.println("Who is now ? " + cartService.getCurrentCart());
         cartService.addToCartByProductId(1L);
-        System.out.println(cartService.getCurrentCart());
+        System.out.println("Who is now ? " + cartService.getCurrentCart());
+       // cartService.removeFromCart("Apple RED");
+        System.out.println("Who is now ? " + cartService.getCurrentCart());
 
+        // вторая  корзина
+        CartService cartService1 = context.getBean(CartService.class);
+        System.out.println("Who is now ? " + cartService1.getCurrentCart());
+
+
+
+
+        /*
         // операции с продуктами
         ProductService productService = context.getBean(ProductService.class);
         System.out.println(productService.findById(3L));
         System.out.println(productService.findById(17L));
+
+         */
 
         context.close();
 
