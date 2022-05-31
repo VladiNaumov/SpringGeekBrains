@@ -6,25 +6,24 @@ import javax.annotation.PostConstruct;
 
 @Component
 public class CartService {
-    private ProductRepository productRepository;
+    private ProductService productService;
     private Cart cart;
 
     @PostConstruct
     public void CartServiceInit(){
         this.cart = new Cart();
     }
+    @Autowired
+    public CartService(ProductService productService) {
+        this.productService = productService;
+    }
 
     public Cart getCurrentCart(){
         return cart;
     }
 
-    @Autowired
-    public CartService(ProductRepository productRepository) {
-        this.productRepository = productRepository;
-    }
-
     public void addToCartByProductId(Long productId){
-    Product product = productRepository.findById(productId).get();
+    Product product = productService.findById(productId).get();
     cart.add(product);
     }
 
