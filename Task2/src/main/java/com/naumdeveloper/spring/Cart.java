@@ -1,6 +1,5 @@
 package com.naumdeveloper.spring;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Cart {

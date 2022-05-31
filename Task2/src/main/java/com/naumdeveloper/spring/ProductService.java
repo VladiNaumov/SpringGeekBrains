@@ -16,7 +16,10 @@ public class ProductService {
         return productRepository.findById(id);
     }
 
+    /*
     public boolean isProductIdExist(Long id) {
         return productRepository.findAll().stream().anyMatch(p -> p.getId().equals(id));
     }
+
+     */
 }
