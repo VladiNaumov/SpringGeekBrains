@@ -17,11 +17,11 @@ public class ProductRepository {
     @PostConstruct
     public void init() {
         this.products = new ArrayList<>();
-        products.add(new Product(001L, "Apple RED"));
-        products.add(new Product(007L, "Apple GRIND"));
-        products.add(new Product(011L, "MILK "));
-        products.add(new Product(017L, "BREAD"));
-        products.add(new Product(021L, "DEMO TONICK"));
+        products.add(new Product(1L, "Apple RED"));
+        products.add(new Product(7L, "Apple GRIND"));
+        products.add(new Product(11L, "MILK "));
+        products.add(new Product(17L, "BREAD"));
+        products.add(new Product(21L, "DEMO TONICK"));
     }
 
 

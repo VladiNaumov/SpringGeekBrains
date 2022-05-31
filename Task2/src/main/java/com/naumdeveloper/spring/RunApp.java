@@ -18,19 +18,28 @@ public class RunApp {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
-        // операции с первой  корзиной
+        // операции с первой корзиной
         CartService cartService = context.getBean(CartService.class);
-        System.out.println("Who is now ? " + cartService.getCurrentCart());
+        System.out.println(" Who is now (первая корзина) ? " + cartService.getCurrentCart());
         cartService.addToCartByProductId(1L);
-        System.out.println("Who is now ? " + cartService.getCurrentCart());
-       // cartService.removeFromCart("Apple RED");
-        System.out.println("Who is now ? " + cartService.getCurrentCart());
+        cartService.addToCartByProductId(7L);
+        cartService.addToCartByProductId(21L);
+        System.out.println(" Who is now (первая корзина) ? " + cartService.getCurrentCart());
+
+        // нужно сделать удаление по ID
+        cartService.removeFromCart("Apple RED");
+        System.out.println(" Who is now (первая корзина) ? " + cartService.getCurrentCart());
 
         // вторая  корзина
         CartService cartService1 = context.getBean(CartService.class);
-        System.out.println("Who is now ? " + cartService1.getCurrentCart());
+        System.out.println(" Who is now (вторая корзина) ? " + cartService1.getCurrentCart());
+        cartService1.addToCartByProductId(11L);
+        cartService1.addToCartByProductId(17L);
+        System.out.println(" Who is now (вторая корзина) ? " + cartService1.getCurrentCart());
 
-
+        // нужно сделать удаление по ID
+        cartService.removeFromCart("Apple RED");
+        System.out.println(" Who is now (вторая корзина) ? " + cartService.getCurrentCart());
 
 
         /*

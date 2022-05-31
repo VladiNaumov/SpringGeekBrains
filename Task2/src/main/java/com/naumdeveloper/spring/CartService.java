@@ -1,10 +1,12 @@
 package com.naumdeveloper.spring;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 
 @Component
+@Scope("prototype")
 public class CartService {
     private ProductService productService;
     private Cart cart;
