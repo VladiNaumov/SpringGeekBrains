@@ -16,8 +16,8 @@ public class Cart {
         products.add(product);
     }
 
-    public void remove(String productTitle) {
-        products.removeIf(p -> p.getTitle().equals(productTitle));
+    public void remove(Long id) {
+        products.removeIf(p -> p.getId().equals(id));
     }
 
         @Override

@@ -27,7 +27,7 @@ public class RunApp {
         System.out.println(" Who is now (первая корзина) ? " + cartService.getCurrentCart());
 
         // нужно сделать удаление по ID
-        cartService.removeFromCart("Apple RED");
+        cartService.removeFromCart(1L);
         System.out.println(" Who is now (первая корзина) ? " + cartService.getCurrentCart());
 
         // вторая  корзина
@@ -38,7 +38,7 @@ public class RunApp {
         System.out.println(" Who is now (вторая корзина) ? " + cartService1.getCurrentCart());
 
         // нужно сделать удаление по ID
-        cartService.removeFromCart("Apple RED");
+        cartService.removeFromCart(11L);
         System.out.println(" Who is now (вторая корзина) ? " + cartService.getCurrentCart());
 
 

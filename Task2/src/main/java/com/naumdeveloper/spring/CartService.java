@@ -29,8 +29,8 @@ public class CartService {
     cart.add(product);
     }
 
-    public void removeFromCart(String productTitle){
-        cart.remove(productTitle);
+    public void removeFromCart(Long id){
+        cart.remove(id);
 
     }
 
