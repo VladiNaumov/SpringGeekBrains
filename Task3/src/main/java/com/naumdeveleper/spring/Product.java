@@ -1,26 +1,25 @@
 package com.naumdeveleper.spring;
 
 public class Product {
-
-    private long ID;
+    private Long id;
     private String title;
-    private double price;
+    private Double price;
 
-    public Product() {
-    }
-
-    public Product(long ID, String title, double price) {
-        this.ID = ID;
+    public Product(Long id, String title, Double price) {
+        this.id = id;
         this.title = title;
         this.price = price;
     }
 
-    public long getID() {
-        return ID;
+    public Product() {
     }
 
-    public void setID(long ID) {
-        this.ID = ID;
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getTitle() {
@@ -31,11 +30,11 @@ public class Product {
         this.title = title;
     }
 
-    public double getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 }
