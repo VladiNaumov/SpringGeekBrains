@@ -1,4 +1,4 @@
 server:
-  port: 8100
+  port: 8000
   servlet:
-    context-path: /market
+    context-path: /prisma
