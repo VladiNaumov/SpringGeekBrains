@@ -31,6 +31,7 @@ public class ProductsRepository {
     }
 
     public Optional <Product> findById(Long id) {
+        // вернуть продукт с указанным id
         return items.stream().filter(p -> p.getId().equals(id)).findFirst();
 
     }
