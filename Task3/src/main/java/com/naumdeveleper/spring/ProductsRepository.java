@@ -1,7 +1,6 @@
 package com.naumdeveleper.spring;
 
 import org.springframework.stereotype.Component;
-import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -42,9 +41,9 @@ public class ProductsRepository {
         items.clear();
     }
 
-    public void removeId(Long id){
+    public boolean removeId(Long id){
         // удаляет продукт с указанным id
-        items.removeIf(p -> p.getId().equals(id));
+       return items.removeIf(p -> p.getId().equals(id));
 
     }
 

@@ -1,30 +1,51 @@
 package com.naumdeveleper.spring;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class ProductsController {
 
-    private ProductsRepository productsRepository;
+    private IProductsService iProductsService;
 
-    public ProductsController(ProductsRepository productsRepository) {
-        this.productsRepository = productsRepository;
+    public ProductsController(IProductsService iProductsService) {
+        this.iProductsService = iProductsService;
     }
 
     // base url - http://localhost:8000/prisma/
 
     @GetMapping("/hello")
-    public String helloWork(){
+    public String helloWork() {
         return "HELLO WORD!!!";
     }
 
 
     @GetMapping("/products")
     public List<Product> getAllProducts() {
-            return productsRepository.getItems();
-        }
+        return iProductsService.getItems();
     }
+
+    @PostMapping("/products")
+    public void addNewProduct(@RequestBody Product product) {
+        iProductsService.add(product);
+    }
+
+    @GetMapping("/products/{id}")
+    public Optional<Product> getProductById(@PathVariable Long id) {
+        return iProductsService.findById(id);
+    }
+
+    @DeleteMapping("/products/remove/")
+    public void deleteAll() {
+        iProductsService.removeAll();
+    }
+
+    @DeleteMapping("/products/remove_id/{id}")
+    public boolean deleteAll(@PathVariable Long id) {
+        return iProductsService.removeId(id);
+    }
+
+}
 
