@@ -21,8 +21,8 @@ public class UserRepository {
         return users.stream().filter(s->s.getId().equals(id)).findFirst();
     }
 
-    public Stream<User> findAge(int age){
-        return users.stream().filter(s->s.getAge()==age);
+    public Optional<User> findAge(int age){
+        return users.stream().filter(s->s.getAge()==age).findFirst();
     }
 
     public Optional<User> findName(String name){
