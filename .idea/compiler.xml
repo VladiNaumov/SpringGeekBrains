@@ -8,8 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Task2" />
         <module name="Task1" />
-        <module name="Task3" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gb-spring-demo-1" target="11" />
+      <module name="Task3" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
