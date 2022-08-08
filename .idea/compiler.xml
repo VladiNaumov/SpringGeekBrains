@@ -6,14 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Task2_" />
         <module name="Task1" />
-        <module name="Demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="first.june.spring" target="11" />
       <module name="gb-spring-demo-1" target="17" />
-      <module name="Task2_" target="17" />
+      <module name="Task1_" target="17" />
       <module name="Task3_" target="11" />
       <module name="Task4" target="11" />
     </bytecodeTargetLevel>
