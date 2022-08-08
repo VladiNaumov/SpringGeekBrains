@@ -1,0 +1,16 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	
++++ b/pom.xml	
+@@ -10,7 +10,6 @@
+     <version>1.0-SNAPSHOT</version>
+     <modules>
+         <module>Task1</module>
+-        <module>Task2_</module>
+ 
+     </modules>
+ 
