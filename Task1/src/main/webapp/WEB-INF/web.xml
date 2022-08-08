@@ -8,7 +8,7 @@
   
   <servlet>
     <servlet-name>FirstServlet</servlet-name>
-    <servlet-class>com.geekbrains.app.FirstServlet</servlet-class>
+    <servlet-class>com.geekbrains.FirstServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
@@ -18,7 +18,7 @@
 
   <servlet>
     <servlet-name>SecondServlet</servlet-name>
-    <servlet-class>com.geekbrains.app.SecondServlet</servlet-class>
+    <servlet-class>com.geekbrains.SecondServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
