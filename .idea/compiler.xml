@@ -10,18 +10,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="first.june.spring" target="11" />
-      <module name="gb-spring-demo-1" target="17" />
-      <module name="Task1_" target="17" />
-      <module name="Task2_" target="17" />
-      <module name="Task3_" target="11" />
-      <module name="Task4" target="11" />
+      <module name="SpringGeekBrains" target="17" />
+      <module name="Task1" target="17" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Task3_" options="-parameters" />
-      <module name="first.june.spring" options="-parameters" />
-    </option>
   </component>
 </project>
