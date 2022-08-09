@@ -5,113 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
-      <change afterPath="$PROJECT_DIR$/Task2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo/DaoUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo/InMemoryUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo/UserApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo/XmlBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo2/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo2/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo2/DbItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo2/InMemoryItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo2/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo2/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo2/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo2/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo2/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo2/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo2/StdClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo2/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo2/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo3/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo3/SimpleBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo3/StringService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo3/StringStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo4/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo4/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo4/INumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo4/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo4/MyBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo4/NotMyBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo4/NumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo4/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo4/SquareNumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/DbItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/IItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/InMemoryItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/market/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/market/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/market/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/market/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/market/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/market/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/market/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/market/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo5/market/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/ProductRepositoryDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/ProductRepositoryInMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/dop/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/demo6/dop/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market2/DemoBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market2/Market2App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market2/Market2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market2/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market2/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market2/ProductRepositoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market2/ProductRepositoryInMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market2/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market2/SimpleBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market3/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market3/Market3Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market3/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market3/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market3/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market3/SimpleItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market3/SimpleItemDbRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market3/SimpleItemInMemoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market3/SimpleItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market3/SimpleItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market3/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/market3/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/geekbrains/spring/spring1nov/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/naumdeveloper/spring/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/naumdeveloper/spring/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/naumdeveloper/spring/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/naumdeveloper/spring/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/naumdeveloper/spring/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/naumdeveloper/spring/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2/src/main/java/com/example/naumdeveloper/spring/RunApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringGeekBrains.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/Task1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/Users/umbre/IdeaProjects/SpringGeekBrains/Task2/src/main/java/com/example/geekbrains",
+    "last_opened_file_path": "C:/Users/umbre/IdeaProjects/SpringGeekBrains/Task2/src/main/java/com/example/naumdeveloper/spring",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -160,11 +62,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task2\src\main\java\com\example\naumdeveloper\spring" />
       <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task2\src\main\resources" />
       <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task2\src\main\java\com\example\geekbrains" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Market2App">
+  <component name="RunManager" selected="Application.RunApp">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.geekbrains.spring.market3.MainApp" />
       <module name="Task2" />
@@ -204,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.geekbrains.spring.demo5.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.geekbrains.spring.demo5.MainApp" />
+    <configuration name="RunApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.naumdeveloper.spring.RunApp" />
       <module name="Task2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.geekbrains.spring.demo5.*" />
+          <option name="PATTERN" value="com.example.naumdeveloper.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunApp" />
         <item itemvalue="Application.Market2App" />
         <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.com.example.geekbrains.spring.demo6.MainApp" />
-        <item itemvalue="Application.com.example.geekbrains.spring.demo5.MainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +176,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1660035383710</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Spring">
+      <created>1660036473639</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1660036473639</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
