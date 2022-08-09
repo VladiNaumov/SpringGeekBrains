@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.concurrent.atomic.AtomicLong;
 
 /*
 HW1
@@ -22,19 +23,21 @@ HW1
  */
 @WebServlet(name = "ProdiutServlet", urlPatterns = "/show_product")
 public class ProdiutServlet extends HttpServlet {
-    private static Logger logger = LoggerFactory.getLogger(ProdiutServlet.class);
+
+    private static final Logger logger = LoggerFactory.getLogger(ProdiutServlet.class);
+
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         ArrayList<Product> products = new ArrayList<>();
-        products.add(new Product(1,"Bread", 1));
-        products.add(new Product(2,"Milk", 2));
-        products.add(new Product(3,"Apple", 4));
-        products.add(new Product(4,"Sideri", 3));
-        products.add(new Product(5,"HotDog", 10));
-        products.add(new Product(6,"Apelsini", 7));
-        products.add(new Product(7,"Beer", 3));
+        products.add(new Product("Bread", 1));
+        products.add(new Product("Milk", 2));
+        products.add(new Product("Apple", 4));
+        products.add(new Product("Sideri", 3));
+        products.add(new Product("HotDog", 10));
+        products.add(new Product("Apelsini", 7));
+        products.add(new Product("Beer", 3));
 
 
         resp.setContentType("text/html;charset=UTF-8");
