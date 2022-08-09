@@ -1,12 +1,16 @@
 package com.naumdeveloper;
 
-public class Product {
-     int ID;
-     String title;
-     int cost;
+import java.util.concurrent.atomic.AtomicLong;
 
-    public Product(int ID, String title, int cost) {
-        this.ID = ID;
+public class Product {
+    private long ID;
+     private String title;
+     private int cost;
+
+    private final AtomicLong identity = new AtomicLong(0);
+
+    public Product(String title, int cost) {
+        this.ID = identity.incrementAndGet();
         this.title = title;
         this.cost = cost;
     }
