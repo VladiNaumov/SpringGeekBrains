@@ -5,15 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
-      <change afterPath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/AppRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/IProductsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/ProductsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/ProductsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/ProductsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task3/src/main/java/com/demo/AppRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task3/src/main/java/com/demo/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task3/src/main/java/com/demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task3/src/main/java/com/demo/RepoItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task3/src/main/java/com/demo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task3/src/main/java/com/geekbrains.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task1/src/main/java/com/naumdeveloper/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/src/main/java/com/naumdeveloper/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/geekbrains/spring/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/geekbrains/spring/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/geekbrains/spring/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/geekbrains/spring/ProductsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/geekbrains/spring/ProductsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/AppRun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/IProductsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/ProductsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/ProductsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/ProductsService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,26 +63,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/IdeProjects/SpringGeekBrains/Task3/src/main/java/com/naumdeveloper/spring",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/IdeProjects/SpringGeekBrains/Task3/src/main/java/com/naumdeveloper/spring&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IdeProjects\SpringGeekBrains\Task3\src\main\java\com\naumdeveloper\spring" />
       <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task2\src\main\java\com\example\naumdeveloper\spring" />
       <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task2\src\main\resources" />
       <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task2\src\main\java\com\example\geekbrains" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.naumdeveloper.spring.demo" />
     </key>
   </component>
   <component name="RunManager" selected="Application.AppRun">
@@ -81,33 +94,7 @@
       <module name="Task3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.naumdeveloper.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.geekbrains.spring.market3.MainApp" />
-      <module name="Task2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.geekbrains.spring.market3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.geekbrains.spring.spring1nov.MainClass" />
-      <module name="Task2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.geekbrains.spring.spring1nov.*" />
+          <option name="PATTERN" value="com.naumdeveloper.spring.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +128,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.counter.AppRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.counter.AppRun" />
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.naumdeveloper.spring.demo.AppRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.naumdeveloper.spring.demo.AppRun" />
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.naumdeveloper.spring.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AppRun" />
+        <item itemvalue="Application.com.counter.AppRun" />
+        <item itemvalue="Application.com.naumdeveloper.spring.demo.AppRun" />
         <item itemvalue="Application.RunApp" />
         <item itemvalue="Application.Market2App" />
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +215,19 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1660560567673</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Spring">
+      <created>1660588253898</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1660588253898</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Spring">
+      <created>1660588315885</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1660588315885</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,23 +1,24 @@
-package com.naumdeveloper;
+package com.demo.counter;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-public class Product {
-    private long ID;
+public class Items {
+
+    private static final AtomicLong COUNTER = new AtomicLong(1);
+    private Long ID;
      private String title;
-     private int cost;
 
-    private static final AtomicLong COUNTER = new AtomicLong(0);
+     private double cost;
 
-    public Product(String title, int cost) {
-        this.ID = COUNTER.incrementAndGet();
+    public Items( String title, double cost) {
+        ID = COUNTER.getAndIncrement();
         this.title = title;
         this.cost = cost;
     }
 
     @Override
     public String toString() {
-        return "Product{" +
+        return "Items{" +
                 "ID=" + ID +
                 ", title='" + title + '\'' +
                 ", cost=" + cost +
