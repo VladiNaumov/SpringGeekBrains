@@ -12,11 +12,15 @@ public class ProductsRepository {
     private List<Product> items;
 
     public ProductsRepository() {
-        this.items = new ArrayList<>();
-        items.add(new Product("Milk", 1.0));
-        items.add(new Product("Bread", 1.80));
-        items.add(new Product("Apple", 3.40));
-        items.add(new Product("Plumb", 17.25));
+        this.items = new ArrayList<>(List.of(
+                new Product("Milk", 1.0),
+                new Product("Bread", 1.80),
+                new Product("Milk", 1.0),
+                new Product("Apple", 3.40),
+                new Product("Plumb", 17.25)
+
+        ));
+
     }
 
     public List<Product> getItems() {
