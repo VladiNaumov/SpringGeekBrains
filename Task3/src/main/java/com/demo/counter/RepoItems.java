@@ -1,5 +1,7 @@
 package com.demo.counter;
 
+import com.naumdeveloper.spring.Product;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,12 +10,14 @@ public class RepoItems {
     private final List<Items> products;
 
     public RepoItems() {
-        this.products = new ArrayList<>();
-        products.add(new Items("Milk", 1.0));
-        products.add(new Items("Bread", 1.80));
-        products.add(new Items("Apple", 3.40));
-        products.add(new Items("Plumb", 17.25));
-        products.add(new Items("----", 00.00));
+        this.products = new ArrayList<>(List.of(
+                new Items("Milk", 1.0),
+                new Items("Bread", 1.80),
+                new Items("Milk", 1.0),
+                new Items("Apple", 3.40),
+                new Items("Plumb", 17.25)
+
+        ));
 
     }
 
