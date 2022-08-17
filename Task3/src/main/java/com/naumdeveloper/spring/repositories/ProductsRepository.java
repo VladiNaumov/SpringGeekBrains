@@ -1,5 +1,6 @@
-package com.naumdeveloper.spring;
+package com.naumdeveloper.spring.repositories;
 
+import com.naumdeveloper.spring.data.Product;
 import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.Collections;

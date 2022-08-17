@@ -1,7 +1,5 @@
 package com.demo.counter;
 
-import com.naumdeveloper.spring.Product;
-
 import java.util.ArrayList;
 import java.util.List;
 

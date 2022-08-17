@@ -1,5 +1,7 @@
-package com.naumdeveloper.spring;
+package com.naumdeveloper.spring.services;
 
+
+import com.naumdeveloper.spring.data.Product;
 
 import java.util.List;
 import java.util.Optional;

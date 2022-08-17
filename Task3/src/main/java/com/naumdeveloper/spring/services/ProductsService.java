@@ -1,5 +1,7 @@
-package com.naumdeveloper.spring;
+package com.naumdeveloper.spring.services;
 
+import com.naumdeveloper.spring.data.Product;
+import com.naumdeveloper.spring.repositories.ProductsRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -17,7 +19,7 @@ import java.util.concurrent.atomic.AtomicLong;
  */
 
 @Service
-public class ProductsService implements IProductsService{
+public class ProductsService implements IProductsService {
 
     private ProductsRepository productsRepository;
 

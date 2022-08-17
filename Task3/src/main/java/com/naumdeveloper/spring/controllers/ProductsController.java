@@ -1,5 +1,7 @@
-package com.naumdeveloper.spring;
+package com.naumdeveloper.spring.controllers;
 
+import com.naumdeveloper.spring.data.Product;
+import com.naumdeveloper.spring.services.IProductsService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
