@@ -49,7 +49,7 @@ public class ProductsController {
 
     // - http://localhost:8189/market/remove_id/1
     @DeleteMapping("/products/remove_id/{id}")
-    public boolean deleteAll(@PathVariable AtomicLong id) {
+    public boolean deletingId(@PathVariable AtomicLong id) {
         return iProductsService.removeId(id);
     }
 
