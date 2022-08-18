@@ -1,4 +1,4 @@
 package com.naumdeveloper;
 
-public class Products {
+public class Product {
 }
