@@ -1,4 +1,4 @@
-package com.naumdeveloper.spring;
+package com.naumdeveloper;
 
 import java.util.concurrent.atomic.AtomicLong;
 
