@@ -11,17 +11,17 @@
     managed by a Spring IoC container. -->
 
     <!-- Сканирование пакета -->
-<!--    <context:component-scan base-package="com.example.geekbrains.spring.examples"/>-->
+<!--    <context:component-scan base-package="com.naumdeveloper.geekbrains.spring.examples"/>-->
 
     <!-- Объявление обычного бина -->
-    <bean id="simpleBean" class="com.example.geekbrains.spring.current.SimpleBean"/>
+    <bean id="simpleBean" class="com.naumdeveloper.geekbrains.spring.current.SimpleBean"/>
 
     <!-- Scopes -->
-    <bean id="simpleBean" class="com.example.geekbrains.spring.examples.SimpleBean" scope="prototype"/>
-    <bean id="simpleBean" class="com.example.geekbrains.spring.examples.SimpleBean" scope="singleton"/>
+    <bean id="simpleBean" class="com.naumdeveloper.geekbrains.spring.examples.SimpleBean" scope="prototype"/>
+    <bean id="simpleBean" class="com.naumdeveloper.geekbrains.spring.examples.SimpleBean" scope="singleton"/>
 
     <!-- Constructor Injection -->
-    <bean id="cppCodeCreator" class="com.example.geekbrains.spring.examples.CppCodeCreator">
+    <bean id="cppCodeCreator" class="com.naumdeveloper.geekbrains.spring.examples.CppCodeCreator">
         <constructor-arg ref="animalsClassNameGenerator"/>
         <constructor-arg ref="anotherId2"/>
         <constructor-arg ref="anotherId3"/>
@@ -43,7 +43,7 @@
     </bean>
 
     <!-- Setter Injection -->
-    <bean id="javaCodeCreator" class="com.example.geekbrains.spring.examples.JavaCodeCreator">
+    <bean id="javaCodeCreator" class="com.naumdeveloper.geekbrains.spring.examples.JavaCodeCreator">
         <property name="classNameGenerator">
             <ref bean="animalsClassNameGenerator"/>
         </property>

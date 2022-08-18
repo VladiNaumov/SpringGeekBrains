@@ -1,4 +1,4 @@
-package com.example;
+package com.naumdeveloper.spring;
 
 public class Main {
     public static void main(String[] args) {

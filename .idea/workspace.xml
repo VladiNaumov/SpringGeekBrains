@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring" />
+    <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
+      <change afterPath="$PROJECT_DIR$/Task4/src/main/java/com/geekbrains/spring/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task1/src/main/java/com/naumdeveloper/ProdiutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/src/main/java/com/naumdeveloper/spring/ProdiutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task1/src/main/java/com/naumdeveloper/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/src/main/java/com/naumdeveloper/spring/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/src/main/resources/__contextFullExample.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/src/main/resources/__contextFullExample.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/AppRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/spring/AppRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/controllers/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/spring/controllers/ProductsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/data/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/spring/data/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/repositories/ProductsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/spring/repositories/ProductsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/services/IProductsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/spring/services/IProductsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/services/ProductsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/src/main/java/com/naumdeveloper/spring/spring/services/ProductsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/src/main/java/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/src/main/java/com/naumdeveloper/spring/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,7 +243,19 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1660688193346</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="Spring">
+      <created>1660835661367</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1660835661367</updated>
+    </task>
+    <task id="LOCAL−00015" summary="Spring">
+      <created>1660835743796</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1660835743796</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
