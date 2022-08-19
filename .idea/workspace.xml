@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
-      <change afterPath="$PROJECT_DIR$/Task4/src/main/java/com/naumdeveloper/SpringWebApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/src/main/java/com/naumdeveloper/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/src/main/java/com/naumdeveloper/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/src/main/java/com/naumdeveloper/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +261,13 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1660837448944</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="Spring">
+      <created>1660837678014</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1660837678014</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
