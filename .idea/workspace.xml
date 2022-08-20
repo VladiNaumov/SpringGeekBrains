@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/data/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/data/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/repositories/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/resources/static/copy/index_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/resources/static/copy/index_.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/resources/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/src/main/resources/static/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_8_2022_2_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_8_2022_2_37__Changes_.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/IdeProjects/SpringGeekBrains/Task4.1/src/main/resources",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/IdeProjects/SpringGeekBrains/Task4.1/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IdeProjects\SpringGeekBrains\Task4.1\src\main\resources" />
