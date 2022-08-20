@@ -14,8 +14,8 @@ public class ProductService {
         this.productRepository = productRepository;
     }
 
-    public List<Product> getAllStudents() {
-        return productRepository.getAllStudents();
+    public List<Product> getAllProdukts() {
+        return productRepository.getAllProdukts();
     }
 
     public void deleteById(Long id) {

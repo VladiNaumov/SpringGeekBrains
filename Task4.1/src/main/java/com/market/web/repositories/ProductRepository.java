@@ -10,11 +10,11 @@ import java.util.List;
 
 @Component
 public class ProductRepository {
-    private List<Product>products;
+    private List<Product> items;
 
     @PostConstruct
     public void init() {
-        products = new ArrayList<>(List.of(
+        items = new ArrayList<>(List.of(
                 new Product("Maitoa", 0.98),
                 new Product("Perunoita", 0.75),
                 new Product("Omena", 2.25),
@@ -28,15 +28,15 @@ public class ProductRepository {
         ));
     }
 
-    public List<Product> getAllStudents() {
-        return Collections.unmodifiableList(products);
+    public List<Product> getAllProdukts() {
+        return Collections.unmodifiableList(items);
     }
 
     public void deleteById(Long id) {
-        products.removeIf(s -> s.getId().equals(id));
+        items.removeIf(s -> s.getId().equals(id));
     }
 
     public Product findById(Long id) {
-        return products.stream().filter(s -> s.getId().equals(id)).findFirst().get();
+        return items.stream().filter(s -> s.getId().equals(id)).findFirst().get();
     }
 }

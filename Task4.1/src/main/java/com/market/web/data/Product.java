@@ -8,18 +8,14 @@ public class Product {
 
     private Double price;
     private Integer discount;
-
     private Double summa;
-
-
     private static final AtomicLong COUNTER = new AtomicLong(0);
-
 
     public Long getId() {
         return id;
     }
 
-     public String getName() {
+    public String getName() {
         return name;
     }
 
@@ -50,10 +46,8 @@ public class Product {
     public void setSumma(Double summa) {
         this.summa = summa;
     }
-
     public Product() {
     }
-
     public Product(String name, Double price) {
         this.id = COUNTER.incrementAndGet();
         this.name = name;

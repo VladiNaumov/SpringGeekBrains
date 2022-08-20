@@ -17,18 +17,30 @@ public class ProductController {
         this.productService = productService;
     }
 
-    @GetMapping("/prisma")
-    public List<Product> getAllProduct() {
-        return productService.getAllStudents();
+    @GetMapping("/market")
+    public List<Product> getAllProdukts() {
+        return productService.getAllProdukts();
     }
 
-    @GetMapping("/prisma/delete/{id}")
+    @GetMapping("/market/delete/{id}")
     public void deleteById(@PathVariable Long id) {
         productService.deleteById(id);
     }
 
-    @GetMapping("/prisma/change_score")
-    public void changeScore(@RequestParam Long studentId, @RequestParam Integer delta) {
-        productService.changeScore(studentId, delta);
+
+    // GET http://localhost:8189/app/market/change_score?productId=1&delta=20
+    @GetMapping("/market/change_score")
+    public void changeScore(@RequestParam Long productId, @RequestParam Integer delta) {
+        productService.changeScore(productId, delta);
     }
+
+/*
+    // GET http://localhost:8189/app/hello?a=10&b=20
+    @GetMapping("/hello")
+    public String helloWork(@RequestParam String a, @RequestParam String b) {
+        return "HELLO WORD!!!" + a + b ;
+    }
+
+ */
+
 }
