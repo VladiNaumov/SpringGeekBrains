@@ -1,17 +1,17 @@
 angular.module('app', []).controller('indexController', function ($scope, $http) {
-    const contextPath = 'http://localhost:8189/talo';
+    const contextPath = 'http://localhost:8189/app';
 
-    $scope.loadStudents = function () {
+    $scope.loadProduct = function () {
         $http.get(contextPath + '/students')
             .then(function (response) {
-                $scope.StudentsList = response.data;
+                $scope.ProductList = response.data;
             });
     };
 
-    $scope.deleteStudent = function (studentId) {
+    $scope.deleteProduct = function (studentId) {
         $http.get(contextPath + '/students/delete/' + studentId)
             .then(function (response) {
-                $scope.loadStudents();
+               $scope.loadProduct();
             });
     }
 
@@ -24,9 +24,9 @@ angular.module('app', []).controller('indexController', function ($scope, $http)
                 delta: delta
             }
         }).then(function (response) {
-            $scope.loadStudents();
+            $scope.loadProduct();
         });
     }
 
-    $scope.loadStudents();
-});
+    $scope.loadProduct();
+})

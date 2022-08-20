@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
-      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/java/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/data/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4.1/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4.1/src/main/resources/static/copy/index_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4.1/src/main/resources/static/copy/index_.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4.1/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4.1/src/main/resources/static/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/target/classes/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/MarketAppRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/MarketAppRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/src/main/resources/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/src/main/resources/static/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/target/classes/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/target/classes/static/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/IdeProjects/Market_Demo",
+    "last_opened_file_path": "C:/IdeProjects/SpringGeekBrains/Task4.1/src/main/java/com/market/web",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -61,38 +79,26 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeProjects\SpringGeekBrains\Task4.1\src\main\java\com\market\web" />
+      <recent name="C:\IdeProjects\SpringGeekBrains\Task4.1\src\main\resources" />
+      <recent name="C:\IdeProjects\SpringGeekBrains\Task4.1" />
       <recent name="C:\IdeProjects\SpringGeekBrains\Task4\src\main\java\com\geekbrains\spring" />
       <recent name="C:\IdeProjects\SpringGeekBrains\Task4\src\main\resources" />
-      <recent name="C:\IdeProjects\SpringGeekBrains\Task3\src\main\java\com\naumdeveloper\spring" />
-      <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task2\src\main\java\com\example\naumdeveloper\spring" />
-      <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task2\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.market.web" />
       <recent name="com.geekbrains.spring" />
       <recent name="com.naumdeveloper" />
       <recent name="com.naumdeveloper.spring.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpringWebApplication">
-    <configuration name="AppRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.naumdeveloper.spring.AppRun" />
-      <module name="Task3" />
+  <component name="RunManager" selected="Application.MarketAppRun">
+    <configuration name="MarketAppRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.market.web.MarketAppRun" />
+      <module name="Task4.1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.naumdeveloper.spring.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.naumdeveloper.spring.RunApp" />
-      <module name="Task2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.naumdeveloper.spring.*" />
+          <option name="PATTERN" value="com.market.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,39 +119,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.counter.AppRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.counter.AppRun" />
-      <module name="Task3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.counter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.naumdeveloper.spring.demo.AppRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.naumdeveloper.spring.demo.AppRun" />
-      <module name="Task3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.naumdeveloper.spring.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MarketAppRun" />
         <item itemvalue="Application.SpringWebApplication" />
-        <item itemvalue="Application.RunApp" />
-        <item itemvalue="Application.com.naumdeveloper.spring.demo.AppRun" />
-        <item itemvalue="Application.com.counter.AppRun" />
-        <item itemvalue="Application.AppRun" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +243,19 @@
       <option name="presentableId" value="LOCAL−00018" />
       <updated>1660934102690</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL−00019" summary="Spring">
+      <created>1660934247477</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1660934247477</updated>
+    </task>
+    <task id="LOCAL−00020" summary="Spring">
+      <created>1660934295460</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1660934295460</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,5 +273,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Spring" />
     <option name="LAST_COMMIT_MESSAGE" value="Spring" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SpringGeekBrains$SpringWebApplication.ic" NAME="SpringWebApplication Coverage Results" MODIFIED="1660954109830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.geekbrains.spring.web.*</FILTER>
+    </SUITE>
   </component>
 </project>
