@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4.1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/resources/copy/index_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/resources/copy/index_.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/resources/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/src/main/resources/static/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/target/classes/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/target/classes/copy/index_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/target/classes/copy/index_.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/target/classes/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4.1/target/classes/static/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/src/main/java/com/geekbrains/spring/web/controllers/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/src/main/java/com/geekbrains/spring/web/controllers/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
