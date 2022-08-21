@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring" />
+    <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/resources/copy/index_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/resources/copy/index_.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/resources/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/src/main/resources/static/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.1/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.1/target/classes/copy/index_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.1/target/classes/copy/index_.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.1/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.1/target/classes/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,8 +78,8 @@
       <recent name="C:\IdeProjects\SpringGeekBrains\Task4.1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.market.web.services" />
       <recent name="com.market.web.data" />
+      <recent name="com.market.web.services" />
       <recent name="com.market.web.controllers" />
       <recent name="com.market.web" />
       <recent name="com.geekbrains.spring" />
@@ -257,7 +270,13 @@
       <option name="presentableId" value="LOCAL−00026" />
       <updated>1661081943201</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL−00027" summary="Spring">
+      <created>1661083597781</created>
+      <option name="number" value="LOCAL−00027" />
+      <option name="presentableId" value="LOCAL−00027" />
+      <updated>1661083597781</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

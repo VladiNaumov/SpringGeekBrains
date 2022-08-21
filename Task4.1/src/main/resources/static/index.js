@@ -1,5 +1,5 @@
 angular.module('app', []).controller('indexController', function ($scope, $http) {
-    const contextPath = 'http://localhost:8189/app/';
+    const contextPath = 'http://localhost:8189/kauppa/';
 
     $scope.loadProduct = function () {
         $http.get(contextPath + '/market')
