@@ -1,6 +1,7 @@
 package com.market.web.data;
 
 import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -8,6 +9,7 @@ public class Product {
     private Long id;
     private String name;
 
+    @Min(0)
     private Double price;
     @NotNull
     @Max(25)
@@ -32,7 +34,10 @@ public class Product {
     }
 
     public void setDiscount(Integer discount) {
-        this.discount = discount;
+        if(discount < 26 && discount > -1 ){
+            this.discount = discount;
+        }
+
     }
 
     public Double getPrice() {
@@ -40,7 +45,10 @@ public class Product {
     }
 
     public void setPrice(Double price) {
-        this.price = price;
+        if(price > 0){
+            this.price = price;
+        }
+
     }
 
     public String getSumma() {
