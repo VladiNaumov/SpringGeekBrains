@@ -1,8 +1,7 @@
 package com.market.web.data;
 
-
+import javax.validation.constraints.Max;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class Product {
@@ -11,9 +10,9 @@ public class Product {
 
     private Double price;
     @NotNull
-    @Size(min = 0, max = 25)
+    @Max(25)
     private Integer discount;
-    private Double summa;
+    private String summa;
     private static final AtomicLong COUNTER = new AtomicLong(0);
 
     public Long getId() {
@@ -44,11 +43,11 @@ public class Product {
         this.price = price;
     }
 
-    public Double getSumma() {
+    public String getSumma() {
         return summa;
     }
 
-    public void setSumma(Double summa) {
+    public void setSumma(String summa) {
         this.summa = summa;
     }
     public Product() {
@@ -58,6 +57,6 @@ public class Product {
         this.name = name;
         this.price = price;
         this.discount = 0;
-        this.summa = 0.00;
+        this.summa = "0.00";
     }
 }

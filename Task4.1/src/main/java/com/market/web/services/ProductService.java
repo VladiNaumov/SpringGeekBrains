@@ -26,7 +26,9 @@ public class ProductService {
         Product product = productRepository.findById(productId);
         product.setDiscount(product.getDiscount() + delta);
         double discoun  = (product.getPrice() / 100) * product.getDiscount();
-        product.setSumma(discoun);
+        String formattedDouble = String.format("%.2f", discoun);
+
+        product.setSumma(formattedDouble);
 
         // studentRepository.save(student);
 
