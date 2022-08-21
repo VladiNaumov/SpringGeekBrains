@@ -39,4 +39,8 @@ public class ProductRepository {
     public Product findById(Long id) {
         return items.stream().filter(s -> s.getId().equals(id)).findFirst().get();
     }
+
+    public void add(Product product) {
+         items.add(product);
+    }
 }

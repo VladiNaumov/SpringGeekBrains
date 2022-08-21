@@ -1,5 +1,7 @@
 package com.market.web.data;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class Product {
@@ -7,6 +9,8 @@ public class Product {
     private String name;
 
     private Double price;
+    @NotNull
+    @Size(min = 0, max = 25)
     private Integer discount;
     private Double summa;
     private static final AtomicLong COUNTER = new AtomicLong(0);
@@ -23,12 +27,12 @@ public class Product {
         this.name = name;
     }
 
-    public Integer getScore() {
+    public Integer getDiscount() {
         return discount;
     }
 
-    public void setScore(Integer score) {
-        this.discount = score;
+    public void setDiscount(Integer discount) {
+        this.discount = discount;
     }
 
     public Double getPrice() {

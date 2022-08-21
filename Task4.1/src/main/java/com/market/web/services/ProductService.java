@@ -22,11 +22,18 @@ public class ProductService {
         productRepository.deleteById(id);
     }
 
-    public void changeScore(Long studentId, Integer delta) {
-        Product product = productRepository.findById(studentId);
-        product.setScore(product.getScore() + delta);
-        double alenuksen  = (product.getPrice() / 100) * product.getScore();
-        product.setSumma(alenuksen);
+    public void changeDiscount(Long productId, Integer delta) {
+        Product product = productRepository.findById(productId);
+        product.setDiscount(product.getDiscount() + delta);
+        double discoun  = (product.getPrice() / 100) * product.getDiscount();
+        product.setSumma(discoun);
+
         // studentRepository.save(student);
+
+    }
+
+    public void add(Product product) {
+        productRepository.add(product);
+
     }
 }
