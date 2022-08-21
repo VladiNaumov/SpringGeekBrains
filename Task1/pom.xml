@@ -13,7 +13,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>Task1</artifactId>
     <packaging>war</packaging>
-    <name>JEE Maven WebApp</name>
+    <name>Task1</name>
 
 
     <properties>
@@ -33,12 +33,10 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.25</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.1.7</version>
         </dependency>
     </dependencies>
 
