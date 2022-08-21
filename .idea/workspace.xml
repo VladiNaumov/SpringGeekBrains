@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4.1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/repositories/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/src/main/java/com/geekbrains/spring/web/controllers/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/src/main/java/com/geekbrains/spring/web/controllers/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,20 @@
       <recent name="com.geekbrains.spring" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MarketAppRun">
+    <configuration name="AppRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.naumdeveloper.spring.AppRun" />
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.naumdeveloper.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MarketAppRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.market.web.MarketAppRun" />
       <module name="Task4.1" />
@@ -93,9 +107,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.spring.web.SpringWebApplication" />
+      <module name="Task4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.spring.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MarketAppRun" />
+        <item itemvalue="Application.SpringWebApplication" />
+        <item itemvalue="Application.AppRun" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +299,13 @@
       <option name="presentableId" value="LOCAL−00027" />
       <updated>1661083597781</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL−00028" summary="Spring">
+      <created>1661105373044</created>
+      <option name="number" value="LOCAL−00028" />
+      <option name="presentableId" value="LOCAL−00028" />
+      <updated>1661105373044</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,6 +323,16 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Spring" />
     <option name="LAST_COMMIT_MESSAGE" value="Spring" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SpringGeekBrains$SpringWebApplication.ic" NAME="SpringWebApplication Coverage Results" MODIFIED="1660954109830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

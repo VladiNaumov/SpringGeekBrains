@@ -3,7 +3,7 @@ package com.market.web.repositories;
 import com.market.web.data.Product;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -12,8 +12,7 @@ import java.util.List;
 public class ProductRepository {
     private List<Product> items;
 
-    @PostConstruct
-    public void init() {
+    public ProductRepository() {
         items = new ArrayList<>(List.of(
                 new Product("Maitoa", 0.98),
                 new Product("Perunoita", 0.75),
