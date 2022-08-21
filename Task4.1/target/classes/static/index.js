@@ -17,8 +17,8 @@ angular.module('app', []).controller('indexController', function ($scope, $http)
 
     $scope.changeScore = function (productId, delta) {
         $http({
-            url: contextPath + '/market/change_score',
-            method: 'GET',
+            url: contextPath + '/market/change_discount',
+            method: 'POST',
             params: {
                 productId: productId,
                 delta: delta
