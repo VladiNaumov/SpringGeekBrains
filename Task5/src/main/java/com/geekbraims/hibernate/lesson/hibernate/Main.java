@@ -1,3 +1,5 @@
+package com.geekbraims.hibernate.lesson.hibernate;
+
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import org.hibernate.cfg.Configuration;
@@ -12,7 +14,7 @@ public class Main {
 
         EntityManager entityManager = entityManagerFactory.createEntityManager();
 
-        // INSERT
+        /* INSERT */
 //        entityManager.getTransaction().begin();
 //
 //        entityManager.persist(new User("User1", "1@a.com", "pass1"));
