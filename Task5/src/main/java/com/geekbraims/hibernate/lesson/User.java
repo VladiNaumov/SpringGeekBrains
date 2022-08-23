@@ -1,4 +1,4 @@
-package com.geekbraims.hibernate.model;
+package com.geekbraims.hibernate.lesson;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
