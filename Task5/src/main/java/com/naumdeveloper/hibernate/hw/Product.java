@@ -2,7 +2,7 @@ package com.naumdeveloper.hibernate.hw;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name ="product")
+@Table(name ="Product")
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

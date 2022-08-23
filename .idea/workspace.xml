@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
-      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/ProductDaoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/RunApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -77,22 +83,22 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeProjects\SpringGeekBrains\Task5\src\main\java\com\naumdeveloper\hibernate\hw" />
       <recent name="C:\IdeProjects\SpringGeekBrains\Task5\src" />
       <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task5\src\main\java\com\geekbrains\hibernate" />
       <recent name="C:\IdeProjects\SpringGeekBrains" />
       <recent name="C:\IdeProjects\SpringGeekBrains\Task4.1\src\main\resources" />
-      <recent name="C:\IdeProjects\SpringGeekBrains\Task4.1\src\main\java\com\market\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IdeProjects\SpringGeekBrains\Task5\src" />
       <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task5\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.naumdeveloper.hibernate.hw" />
       <recent name="com.market.web.data" />
       <recent name="com.market.web.services" />
       <recent name="com.market.web.controllers" />
       <recent name="com.market.web" />
-      <recent name="com.geekbrains.spring" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainApp">
@@ -384,7 +390,13 @@
       <option name="presentableId" value="LOCAL−00035" />
       <updated>1661276354606</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL−00036" summary="Spring">
+      <created>1661276442174</created>
+      <option name="number" value="LOCAL−00036" />
+      <option name="presentableId" value="LOCAL−00036" />
+      <updated>1661276442174</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="UnknownFeatures">
