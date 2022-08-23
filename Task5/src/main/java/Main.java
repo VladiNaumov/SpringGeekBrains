@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         EntityManagerFactory entityManagerFactory = new Configuration()
+                // передача файла конфигурации Hibernate
                 .configure("hibernate.cfg.xml")
                 .buildSessionFactory();
 
