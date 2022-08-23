@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
+      <change afterPath="$PROJECT_DIR$/Task5.1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_8_2022_2_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_8_2022_2_37__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/src/main/java/com/geekbraims/hibernate/homework/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/homework/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/src/main/java/com/geekbraims/hibernate/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/homework/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <recent name="com.geekbrains.spring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainApp">
     <configuration name="AppRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.naumdeveloper.spring.AppRun" />
       <module name="Task3" />
@@ -118,6 +118,19 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geekbraims.hibernate.lesson.Main" />
       <module name="Task5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flamexander.hibernate.h2.MainApp" />
+      <module name="Task5.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flamexander.hibernate.h2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MarketAppRun" />
         <item itemvalue="Application.SpringWebApplication" />

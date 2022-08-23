@@ -11,6 +11,7 @@
         <module name="Task1" />
         <module name="Task4" />
         <module name="Task3" />
+        <module name="Task5.1" />
         <module name="Task4.1" />
         <module name="Task5" />
       </profile>
@@ -24,6 +25,7 @@
       <module name="Task4" options="-parameters" />
       <module name="Task4.1" options="-parameters" />
       <module name="Task5" options="" />
+      <module name="Task5.1" options="" />
     </option>
   </component>
 </project>
