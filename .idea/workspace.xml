@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
-      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/ProductDaoInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/RunApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/ProductDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,7 +391,19 @@
       <option name="presentableId" value="LOCAL−00036" />
       <updated>1661276442174</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL−00037" summary="Spring">
+      <created>1661278151688</created>
+      <option name="number" value="LOCAL−00037" />
+      <option name="presentableId" value="LOCAL−00037" />
+      <updated>1661278151688</updated>
+    </task>
+    <task id="LOCAL−00038" summary="Spring">
+      <created>1661278285819</created>
+      <option name="number" value="LOCAL−00038" />
+      <option name="presentableId" value="LOCAL−00038" />
+      <updated>1661278285819</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="UnknownFeatures">
