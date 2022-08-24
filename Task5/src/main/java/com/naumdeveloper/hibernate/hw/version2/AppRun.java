@@ -12,7 +12,7 @@ public class AppRun {
 
         ProductDao productDao = new ProductDao();
 
-        productDao.save(new Product("-----", 1200.00));
+        productDao.save(new Product("LOL", 1200.00));
        /*
         productDao.update();
         productDao.delete();

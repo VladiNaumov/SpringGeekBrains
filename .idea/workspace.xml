@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/version2/AppRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/version2/AppRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/version2/connect/HibernateSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/version2/connect/HibernateSessionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/version2/repository/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/version2/repository/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -418,7 +415,13 @@
       <option name="presentableId" value="LOCAL−00040" />
       <updated>1661366702375</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL−00041" summary="Spring">
+      <created>1661367692702</created>
+      <option name="number" value="LOCAL−00041" />
+      <option name="presentableId" value="LOCAL−00041" />
+      <updated>1661367692702</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
