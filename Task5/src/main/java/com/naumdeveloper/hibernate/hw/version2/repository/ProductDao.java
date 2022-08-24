@@ -15,9 +15,9 @@ public class ProductDao {
 Дополнительные материалы
  */
 
-   private HibernateSessionFactory session;
+    private HibernateSessionFactory session;
     private Product product;
-    HibernateSessionFactory hibernateSessionFactory;
+    private HibernateSessionFactory hibernateSessionFactory;
 
     public ProductDao() {
         session = new HibernateSessionFactory();

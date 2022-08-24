@@ -7,7 +7,7 @@ import org.hibernate.cfg.Configuration;
 public class HibernateSessionFactory {
 
     private EntityManager entityManager;
-    EntityManagerFactory entityManagerFactory;
+    private EntityManagerFactory entityManagerFactory;
 
     public HibernateSessionFactory() {
         if(entityManager == null) {
