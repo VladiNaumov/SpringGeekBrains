@@ -9,8 +9,10 @@ public class HibernateSessionFactory {
     private EntityManager entityManager;
     private EntityManagerFactory entityManagerFactory;
 
+
+
     public void init() {
-        if(entityManagerFactory == null) {
+        if(entityManagerFactory == null && entityManager == null) {
             this.entityManagerFactory = new Configuration().configure("hibernate.cfg.xml")
                     .buildSessionFactory();
 
