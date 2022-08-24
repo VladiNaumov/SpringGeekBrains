@@ -1,4 +1,4 @@
-package com.naumdeveloper.hibernate.hw;
+package com.naumdeveloper.hibernate.hw.version1;
 
 import java.util.List;
 

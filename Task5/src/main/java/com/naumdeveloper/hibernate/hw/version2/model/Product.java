@@ -1,8 +1,10 @@
-package com.naumdeveloper.hibernate.hw;
+package com.naumdeveloper.hibernate.hw.version2.model;
+
+
 import jakarta.persistence.*;
 
 @Entity
-@Table(name ="Product")
+@Table(name ="product")
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -13,6 +15,11 @@ public class Product {
     private Double price;
 
     public Product() {
+    }
+
+    public Product(String name, Double price) {
+        this.name = name;
+        this.price = price;
     }
 
     public Long getId() {

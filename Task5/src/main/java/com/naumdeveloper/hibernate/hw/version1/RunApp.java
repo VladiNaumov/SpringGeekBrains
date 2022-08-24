@@ -1,4 +1,4 @@
-package com.naumdeveloper.hibernate.hw;
+package com.naumdeveloper.hibernate.hw.version1;
 
 public class RunApp {
     public static void main(String[] args) {
