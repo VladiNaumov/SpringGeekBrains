@@ -10,7 +10,9 @@ public class SessionFactoryUtils {
     public void init() {
         factory = new Configuration()
                 .configure("hibernate.cfg.xml")
+                .addAnnotatedClass(Product.class)
                 .buildSessionFactory();
+
     }
 
     public Session getSession() {
