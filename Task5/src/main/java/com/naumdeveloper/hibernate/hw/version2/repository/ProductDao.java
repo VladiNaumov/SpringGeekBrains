@@ -1,6 +1,5 @@
 package com.naumdeveloper.hibernate.hw.version2.repository;
 
-
 import com.naumdeveloper.hibernate.hw.version2.connect.HibernateSessionFactory;
 import com.naumdeveloper.hibernate.hw.version2.model.Product;
 
@@ -73,7 +72,12 @@ public class ProductDao {
     }
 
     public List<Product> findAll() {
-        return null;
+         List<Product> product = session
+                 .getEntityManager()
+                 .createQuery("\"select u from Product u", Product.class).getResultList();
+
+        hibernateSessionFactory.close();
+        return product;
 
     }
 
