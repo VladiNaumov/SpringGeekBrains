@@ -16,5 +16,11 @@
         <property name="hibernate.format_sql">true</property>
 
         <mapping class="com.geekbraims.hibernate.lesson.User"/>
+        <!--
+        <mapping class="com.naumdeveloper.hibernate.hw.version1.Product"/>
+        -->
+        <mapping class="com.naumdeveloper.hibernate.hw.version2.model.Product"/>
+
+
     </session-factory>
 </hibernate-configuration>

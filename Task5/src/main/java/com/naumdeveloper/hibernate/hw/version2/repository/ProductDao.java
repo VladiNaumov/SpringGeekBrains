@@ -15,18 +15,20 @@ public class ProductDao {
 Дополнительные материалы
  */
 
-    private HibernateSessionFactory session;
+    private HibernateSessionFactory sesshibernateSessionFactoryon;
     private Product product;
-    private HibernateSessionFactory hibernateSessionFactory;
+
 
     public ProductDao() {
-        session = new HibernateSessionFactory();
+        sesshibernateSessionFactoryon = new HibernateSessionFactory();
+        sesshibernateSessionFactoryon.init();
+
         product = new Product();
     }
 
     public Product findById(int id) {
-        product = session.getEntityManager().find(Product.class, id);
-        hibernateSessionFactory.close();
+        product = sesshibernateSessionFactoryon.getEntityManager().find(Product.class, id);
+        sesshibernateSessionFactoryon.close();
         return product;
 
     }
@@ -34,20 +36,20 @@ public class ProductDao {
 
     public void save(Product product) {
         /* INSERT */
-        session.getEntityManager().getTransaction().begin();
-        session.getEntityManager().persist(product);
-        session.getEntityManager().getTransaction().commit();
-        hibernateSessionFactory.close();
+        sesshibernateSessionFactoryon.getEntityManager().getTransaction().begin();
+        sesshibernateSessionFactoryon.getEntityManager().persist(product);
+        sesshibernateSessionFactoryon.getEntityManager().getTransaction().commit();
+        sesshibernateSessionFactoryon.close();
 
 
     }
 
     public void update(int id, String name) {
         // UPDATE
-        session.getEntityManager().getTransaction().begin();
-        product = session.getEntityManager().find(Product.class, id);
+        sesshibernateSessionFactoryon.getEntityManager().getTransaction().begin();
+        product = sesshibernateSessionFactoryon.getEntityManager().find(Product.class, id);
         product.setName(name);
-        session.getEntityManager().getTransaction().commit();
+        sesshibernateSessionFactoryon.getEntityManager().getTransaction().commit();
 
         /*
         session.getEntityManager().getTransaction().begin();
@@ -56,27 +58,27 @@ public class ProductDao {
         session.getEntityManager().merge(product1);
         session.getEntityManager().getTransaction().commit();
          */
-        hibernateSessionFactory.close();
+        sesshibernateSessionFactoryon.close();
 
     }
 
 
     public void delete(int id) {
         // DELETE
-        session.getEntityManager().getTransaction().begin();
-        product = session.getEntityManager().find(Product.class, id);
-        session.getEntityManager().remove(product);
-        session.getEntityManager().getTransaction().commit();
-        hibernateSessionFactory.close();
+        sesshibernateSessionFactoryon.getEntityManager().getTransaction().begin();
+        product = sesshibernateSessionFactoryon.getEntityManager().find(Product.class, id);
+        sesshibernateSessionFactoryon.getEntityManager().remove(product);
+        sesshibernateSessionFactoryon.getEntityManager().getTransaction().commit();
+        sesshibernateSessionFactoryon.close();
 
     }
 
     public List<Product> findAll() {
-         List<Product> product = session
+         List<Product> product = sesshibernateSessionFactoryon
                  .getEntityManager()
                  .createQuery("\"select u from Product u", Product.class).getResultList();
 
-        hibernateSessionFactory.close();
+        sesshibernateSessionFactoryon.close();
         return product;
 
     }
