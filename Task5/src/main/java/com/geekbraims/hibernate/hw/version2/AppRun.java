@@ -7,36 +7,19 @@ import com.geekbraims.hibernate.hw.version2.repository.ProductDao;
 
 public class AppRun {
 
-
-
     public static void main(String[] args) {
 
         ManagerFactoryUtil managerFactoryUtil = new ManagerFactoryUtil();
-        managerFactoryUtil.init();
-        try {
+         try {
             ProductDao productDao = new ProductDao();
 
-            productDao.save(new Product("komoooopDomoliluyuiyii", 1200.00));
-            productDao.findAll();
-
+            productDao.save(new Product("WERTYDSFSFSFsdfghjklölkjhgf", 1200.00));
 
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
             managerFactoryUtil.shutdown();
         }
-
-
-       /*
-        productDao.update();
-        productDao.delete();
-
-
-        */
-
-
-
-
 
     }
 }

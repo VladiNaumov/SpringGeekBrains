@@ -11,12 +11,14 @@ public class ManagerFactoryUtil {
     private EntityManagerFactory entityManagerFactory;
 
     public void init() {
-        entityManagerFactory = new Configuration()
-                .configure("hibernate.cfg.xml")
-                .addAnnotatedClass(Product.class)
-                .buildSessionFactory();
+        if(entityManagerFactory == null) {
+            this.entityManagerFactory = new Configuration()
+                    .configure("hibernate.cfg.xml")
+                    .addAnnotatedClass(Product.class)
+                    .buildSessionFactory();
+        }
+       this.entityManager = entityManagerFactory.createEntityManager();
 
-        this.entityManager = entityManagerFactory.createEntityManager();
 
     }
 

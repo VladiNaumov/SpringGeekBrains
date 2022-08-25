@@ -22,7 +22,6 @@ public class ProductDao {
     public ProductDao() {
         entityManager = new ManagerFactoryUtil();
         entityManager.init();
-
         product = new Product();
     }
 
@@ -38,9 +37,6 @@ public class ProductDao {
         entityManager.getEntityManager().getTransaction().begin();
         entityManager.getEntityManager().persist(product);
         entityManager.getEntityManager().getTransaction().commit();
-
-
-
     }
 
     public void update(int id, String name) {
@@ -57,8 +53,6 @@ public class ProductDao {
         session.getEntityManager().merge(product1);
         session.getEntityManager().getTransaction().commit();
          */
-
-
     }
 
 
@@ -68,8 +62,6 @@ public class ProductDao {
         product = entityManager.getEntityManager().find(Product.class, id);
         entityManager.getEntityManager().remove(product);
         entityManager.getEntityManager().getTransaction().commit();
-
-
     }
 
     public List<Product> findAll() {
@@ -77,10 +69,8 @@ public class ProductDao {
                  .getEntityManager()
                  .createQuery("\"select u from Product u", Product.class).getResultList();
 
-
         return product;
 
     }
-
 
 }
