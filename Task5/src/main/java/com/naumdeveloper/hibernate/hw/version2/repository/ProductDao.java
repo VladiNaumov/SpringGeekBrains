@@ -1,6 +1,6 @@
 package com.naumdeveloper.hibernate.hw.version2.repository;
 
-import com.naumdeveloper.hibernate.hw.version2.connect.EntityManagerUtils;
+import com.naumdeveloper.hibernate.hw.version2.connect.ManagerFactoryUtil;
 import com.naumdeveloper.hibernate.hw.version2.model.Product;
 
 import java.util.List;
@@ -15,12 +15,12 @@ public class ProductDao {
 Дополнительные материалы
  */
 
-    private final EntityManagerUtils entityManager;
+    private final ManagerFactoryUtil entityManager;
     private Product product;
 
 
     public ProductDao() {
-        entityManager = new EntityManagerUtils();
+        entityManager = new ManagerFactoryUtil();
         entityManager.init();
 
         product = new Product();
@@ -28,7 +28,7 @@ public class ProductDao {
 
     public Product findById(int id) {
         product = entityManager.getEntityManager().find(Product.class, id);
-        entityManager.close();
+        entityManager.shutdown();
         return product;
 
     }
@@ -39,7 +39,7 @@ public class ProductDao {
         entityManager.getEntityManager().getTransaction().begin();
         entityManager.getEntityManager().persist(product);
         entityManager.getEntityManager().getTransaction().commit();
-        entityManager.close();
+        entityManager.shutdown();
 
 
     }
@@ -58,7 +58,7 @@ public class ProductDao {
         session.getEntityManager().merge(product1);
         session.getEntityManager().getTransaction().commit();
          */
-        entityManager.close();
+        entityManager.shutdown();
 
     }
 
@@ -69,7 +69,7 @@ public class ProductDao {
         product = entityManager.getEntityManager().find(Product.class, id);
         entityManager.getEntityManager().remove(product);
         entityManager.getEntityManager().getTransaction().commit();
-        entityManager.close();
+        entityManager.shutdown();
 
     }
 
@@ -78,7 +78,7 @@ public class ProductDao {
                  .getEntityManager()
                  .createQuery("\"select u from Product u", Product.class).getResultList();
 
-        entityManager.close();
+        entityManager.shutdown();
         return product;
 
     }
