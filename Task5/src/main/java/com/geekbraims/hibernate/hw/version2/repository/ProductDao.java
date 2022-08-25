@@ -67,7 +67,7 @@ public class ProductDao {
     public List<Product> findAll() {
          List<Product> product = entityManager
                  .getEntityManager()
-                 .createQuery("\"select u from Product u", Product.class).getResultList();
+                 .createQuery("select u from Product u", Product.class).getResultList();
 
         return product;
 

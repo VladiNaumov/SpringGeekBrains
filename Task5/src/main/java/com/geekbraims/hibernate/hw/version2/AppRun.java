@@ -13,7 +13,8 @@ public class AppRun {
          try {
             ProductDao productDao = new ProductDao();
 
-            productDao.save(new Product("WERTYDSFSFSFsdfghjklölkjhgf", 1200.00));
+            //productDao.save(new Product("HEROCU", 1000200.00));
+            System.out.println(productDao.findAll());
 
         } catch (Exception e) {
             e.printStackTrace();

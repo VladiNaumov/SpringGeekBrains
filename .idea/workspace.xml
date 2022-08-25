@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
-      <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/hw/version2/connect/ManagerFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/hw/version2/connect/ManagerFactoryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/hw/version2/AppRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/hw/version2/AppRun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -390,7 +390,13 @@
       <option name="presentableId" value="LOCAL−00036" />
       <updated>1661442256043</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL−00037" summary="Spring">
+      <created>1661442820407</created>
+      <option name="number" value="LOCAL−00037" />
+      <option name="presentableId" value="LOCAL−00037" />
+      <updated>1661442820407</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
