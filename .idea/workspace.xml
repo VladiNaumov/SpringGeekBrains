@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring" />
+    <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/hw/version2/repository/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/hw/version2/repository/ProductDao.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +69,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/IdeProjects/SpringGeekBrains",
+    "last_opened_file_path": "C:/Users/umbre/IdeaProjects/SpringGeekBrains/Task5/src/main/java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -75,11 +78,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task5\src\main\java" />
       <recent name="C:\IdeProjects\SpringGeekBrains\Task5\src" />
       <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task5\src\main\java\com\geekbrains\hibernate" />
       <recent name="C:\IdeProjects\SpringGeekBrains" />
       <recent name="C:\IdeProjects\SpringGeekBrains\Task4.1\src\main\resources" />
-      <recent name="C:\IdeProjects\SpringGeekBrains\Task4.1\src\main\java\com\market\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IdeProjects\SpringGeekBrains\Task5\src" />
@@ -93,20 +96,7 @@
       <recent name="com.geekbrains.spring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
-    <configuration name="AppRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.naumdeveloper.spring.AppRun" />
-      <module name="Task3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.naumdeveloper.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.geekbraims.hibernate.hw.version2.AppRun">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geekbraims.hibernate.lesson.Main" />
       <module name="Task5" />
@@ -153,13 +143,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.geekbraims.hibernate.hw.version2.AppRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbraims.hibernate.hw.version2.AppRun" />
+      <module name="Task5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbraims.hibernate.hw.version2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.geekbraims.hibernate.hw.version2.AppRun" />
         <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MarketAppRun" />
         <item itemvalue="Application.SpringWebApplication" />
-        <item itemvalue="Application.AppRun" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +373,13 @@
       <option name="presentableId" value="LOCAL−00033" />
       <updated>1661267930680</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL−00034" summary="Spring">
+      <created>1661440354341</created>
+      <option name="number" value="LOCAL−00034" />
+      <option name="presentableId" value="LOCAL−00034" />
+      <updated>1661440354341</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
