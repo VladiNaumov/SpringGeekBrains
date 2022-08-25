@@ -7,6 +7,7 @@ import org.hibernate.cfg.Configuration;
 
 public class ManagerFactoryUtil {
 
+    private EntityManager entityManager;
     private EntityManagerFactory entityManagerFactory;
 
     public void init() {
@@ -15,10 +16,12 @@ public class ManagerFactoryUtil {
                 .addAnnotatedClass(Product.class)
                 .buildSessionFactory();
 
+        this.entityManager = entityManagerFactory.createEntityManager();
+
     }
 
     public EntityManager getEntityManager() {
-        return entityManagerFactory.createEntityManager();
+        return entityManager;
     }
 
     public void shutdown() {
