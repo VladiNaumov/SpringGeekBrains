@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/version2/AppRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/version2/AppRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/version2/connect/ManagerFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/java/com/naumdeveloper/hibernate/hw/version2/connect/ManagerFactoryUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -464,7 +460,13 @@
       <option name="presentableId" value="LOCAL−00048" />
       <updated>1661438805011</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL−00049" summary="Spring">
+      <created>1661439638468</created>
+      <option name="number" value="LOCAL−00049" />
+      <option name="presentableId" value="LOCAL−00049" />
+      <updated>1661439638468</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
