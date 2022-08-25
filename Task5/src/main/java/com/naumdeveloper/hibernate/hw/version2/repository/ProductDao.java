@@ -15,20 +15,20 @@ public class ProductDao {
 Дополнительные материалы
  */
 
-    private final EntityManagerUtils entityManagerUtils;
+    private final EntityManagerUtils entityManager;
     private Product product;
 
 
     public ProductDao() {
-        entityManagerUtils = new EntityManagerUtils();
-        entityManagerUtils.init();
+        entityManager = new EntityManagerUtils();
+        entityManager.init();
 
         product = new Product();
     }
 
     public Product findById(int id) {
-        product = entityManagerUtils.getEntityManager().find(Product.class, id);
-        entityManagerUtils.close();
+        product = entityManager.getEntityManager().find(Product.class, id);
+        entityManager.close();
         return product;
 
     }
@@ -36,20 +36,20 @@ public class ProductDao {
 
     public void save(Product product) {
         /* INSERT */
-        entityManagerUtils.getEntityManager().getTransaction().begin();
-        entityManagerUtils.getEntityManager().persist(product);
-        entityManagerUtils.getEntityManager().getTransaction().commit();
-        entityManagerUtils.close();
+        entityManager.getEntityManager().getTransaction().begin();
+        entityManager.getEntityManager().persist(product);
+        entityManager.getEntityManager().getTransaction().commit();
+        entityManager.close();
 
 
     }
 
     public void update(int id, String name) {
         // UPDATE
-        entityManagerUtils.getEntityManager().getTransaction().begin();
-        product = entityManagerUtils.getEntityManager().find(Product.class, id);
+        entityManager.getEntityManager().getTransaction().begin();
+        product = entityManager.getEntityManager().find(Product.class, id);
         product.setName(name);
-        entityManagerUtils.getEntityManager().getTransaction().commit();
+        entityManager.getEntityManager().getTransaction().commit();
 
         /*
         session.getEntityManager().getTransaction().begin();
@@ -58,27 +58,27 @@ public class ProductDao {
         session.getEntityManager().merge(product1);
         session.getEntityManager().getTransaction().commit();
          */
-        entityManagerUtils.close();
+        entityManager.close();
 
     }
 
 
     public void delete(int id) {
         // DELETE
-        entityManagerUtils.getEntityManager().getTransaction().begin();
-        product = entityManagerUtils.getEntityManager().find(Product.class, id);
-        entityManagerUtils.getEntityManager().remove(product);
-        entityManagerUtils.getEntityManager().getTransaction().commit();
-        entityManagerUtils.close();
+        entityManager.getEntityManager().getTransaction().begin();
+        product = entityManager.getEntityManager().find(Product.class, id);
+        entityManager.getEntityManager().remove(product);
+        entityManager.getEntityManager().getTransaction().commit();
+        entityManager.close();
 
     }
 
     public List<Product> findAll() {
-         List<Product> product = entityManagerUtils
+         List<Product> product = entityManager
                  .getEntityManager()
                  .createQuery("\"select u from Product u", Product.class).getResultList();
 
-        entityManagerUtils.close();
+        entityManager.close();
         return product;
 
     }
