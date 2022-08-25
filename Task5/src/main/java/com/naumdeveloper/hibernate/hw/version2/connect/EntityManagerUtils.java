@@ -5,7 +5,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import org.hibernate.cfg.Configuration;
 
-public class HibernateSessionFactory {
+public class EntityManagerUtils {
 
     private EntityManager entityManager;
     private EntityManagerFactory entityManagerFactory;

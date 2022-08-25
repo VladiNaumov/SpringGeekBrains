@@ -1,6 +1,6 @@
 package com.naumdeveloper.hibernate.hw.version2.repository;
 
-import com.naumdeveloper.hibernate.hw.version2.connect.HibernateSessionFactory;
+import com.naumdeveloper.hibernate.hw.version2.connect.EntityManagerUtils;
 import com.naumdeveloper.hibernate.hw.version2.model.Product;
 
 import java.util.List;
@@ -15,20 +15,20 @@ public class ProductDao {
 Дополнительные материалы
  */
 
-    private HibernateSessionFactory hibernateSessionFactory;
+    private final EntityManagerUtils entityManagerUtils;
     private Product product;
 
 
     public ProductDao() {
-        hibernateSessionFactory = new HibernateSessionFactory();
-        hibernateSessionFactory.init();
+        entityManagerUtils = new EntityManagerUtils();
+        entityManagerUtils.init();
 
         product = new Product();
     }
 
     public Product findById(int id) {
-        product = hibernateSessionFactory.getEntityManager().find(Product.class, id);
-        hibernateSessionFactory.close();
+        product = entityManagerUtils.getEntityManager().find(Product.class, id);
+        entityManagerUtils.close();
         return product;
 
     }
@@ -36,20 +36,20 @@ public class ProductDao {
 
     public void save(Product product) {
         /* INSERT */
-        hibernateSessionFactory.getEntityManager().getTransaction().begin();
-        hibernateSessionFactory.getEntityManager().persist(product);
-        hibernateSessionFactory.getEntityManager().getTransaction().commit();
-        hibernateSessionFactory.close();
+        entityManagerUtils.getEntityManager().getTransaction().begin();
+        entityManagerUtils.getEntityManager().persist(product);
+        entityManagerUtils.getEntityManager().getTransaction().commit();
+        entityManagerUtils.close();
 
 
     }
 
     public void update(int id, String name) {
         // UPDATE
-        hibernateSessionFactory.getEntityManager().getTransaction().begin();
-        product = hibernateSessionFactory.getEntityManager().find(Product.class, id);
+        entityManagerUtils.getEntityManager().getTransaction().begin();
+        product = entityManagerUtils.getEntityManager().find(Product.class, id);
         product.setName(name);
-        hibernateSessionFactory.getEntityManager().getTransaction().commit();
+        entityManagerUtils.getEntityManager().getTransaction().commit();
 
         /*
         session.getEntityManager().getTransaction().begin();
@@ -58,27 +58,27 @@ public class ProductDao {
         session.getEntityManager().merge(product1);
         session.getEntityManager().getTransaction().commit();
          */
-        hibernateSessionFactory.close();
+        entityManagerUtils.close();
 
     }
 
 
     public void delete(int id) {
         // DELETE
-        hibernateSessionFactory.getEntityManager().getTransaction().begin();
-        product = hibernateSessionFactory.getEntityManager().find(Product.class, id);
-        hibernateSessionFactory.getEntityManager().remove(product);
-        hibernateSessionFactory.getEntityManager().getTransaction().commit();
-        hibernateSessionFactory.close();
+        entityManagerUtils.getEntityManager().getTransaction().begin();
+        product = entityManagerUtils.getEntityManager().find(Product.class, id);
+        entityManagerUtils.getEntityManager().remove(product);
+        entityManagerUtils.getEntityManager().getTransaction().commit();
+        entityManagerUtils.close();
 
     }
 
     public List<Product> findAll() {
-         List<Product> product = hibernateSessionFactory
+         List<Product> product = entityManagerUtils
                  .getEntityManager()
                  .createQuery("\"select u from Product u", Product.class).getResultList();
 
-        hibernateSessionFactory.close();
+        entityManagerUtils.close();
         return product;
 
     }

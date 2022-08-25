@@ -84,4 +84,12 @@ public class ProductDao implements ProductDaoInterface {
         }
 
     }
+    public void dellId(int Id){
+        try (Session session = sessionFactoryUtils.getSession()) {
+             session.beginTransaction();
+             Product product = session.get(Product.class, Id);
+             session.delete(product);
+             session.getTransaction().commit();
+        }
+    }
 }
