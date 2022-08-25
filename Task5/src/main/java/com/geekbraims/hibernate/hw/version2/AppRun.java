@@ -9,17 +9,17 @@ public class AppRun {
 
     public static void main(String[] args) {
 
-        ManagerFactoryUtil managerFactoryUtil = new ManagerFactoryUtil();
+        ManagerFactoryUtil factoryUtil = new ManagerFactoryUtil();
          try {
-            ProductDao productDao = new ProductDao();
+            ProductDao productDao = new ProductDao(factoryUtil);
 
-            //productDao.save(new Product("HEROCU", 1000200.00));
+            productDao.save(new Product("HEROCU....", 1000200.00));
             System.out.println(productDao.findAll());
 
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            managerFactoryUtil.shutdown();
+            factoryUtil.shutdown();
         }
 
     }

@@ -19,10 +19,10 @@ public class ProductDao {
     private Product product;
 
 
-    public ProductDao() {
-        entityManager = new ManagerFactoryUtil();
+    public ProductDao(ManagerFactoryUtil entityManager) {
+        this.entityManager = entityManager;
         entityManager.init();
-        product = new Product();
+        this.product = new Product();
     }
 
     public Product findById(int id) {
