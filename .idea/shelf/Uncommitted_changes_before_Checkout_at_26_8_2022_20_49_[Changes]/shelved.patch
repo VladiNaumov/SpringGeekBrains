@@ -1,0 +1,95 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,21 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
+-      <change afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/homework/Author.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/homework/Book.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/homework/Catalog.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/homework/MainClass.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/homework/Reader.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/homework/Review.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/homework/db-scripts.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/version2/DaoCRUDRepository.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/version2/DaoCRUDRepository_.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/version2/MainDao.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/version2/model/User.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/h2/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/h2/UserDao.java" afterDir="false" />
+-    </list>
++    <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -34,7 +20,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="HW5" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -73,20 +59,20 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_ADD_EXTERNAL_FILES": "true",
+-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "jdk.selected.JAVA_MODULE": "corretto-17",
+-    "last_opened_file_path": "C:/IdeProjects/SpringGeekBrains/Task5/src/main/java/com/geekbraims/hibernate",
+-    "project.structure.last.edited": "Project",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0",
+-    "settings.editor.selected.configurable": "preferences.lookFeel"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
++    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/IdeProjects/SpringGeekBrains/Task5/src/main/java/com/geekbraims/hibernate&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\IdeProjects\SpringGeekBrains\Task5\src\main\java\com\geekbraims\hibernate" />
+@@ -453,17 +439,17 @@
+           <option name="timeStamp" value="1" />
+         </breakpoint>
+         <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/controllers/ProductController.java</url>
++          <url>file://$USER_HOME$/IdeaProjects/SpringGeekBrains/Task4.1/src/main/java/com/market/web/controllers/ProductController.java</url>
+           <line>17</line>
+           <option name="timeStamp" value="3" />
+         </line-breakpoint>
+         <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/controllers/ProductController.java</url>
++          <url>file://$USER_HOME$/IdeaProjects/SpringGeekBrains/Task4.1/src/main/java/com/market/web/controllers/ProductController.java</url>
+           <line>24</line>
+           <option name="timeStamp" value="4" />
+         </line-breakpoint>
+         <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/Task4.1/src/main/java/com/market/web/controllers/ProductController.java</url>
++          <url>file://$USER_HOME$/IdeaProjects/SpringGeekBrains/Task4.1/src/main/java/com/market/web/controllers/ProductController.java</url>
+           <line>19</line>
+           <option name="timeStamp" value="5" />
+         </line-breakpoint>
