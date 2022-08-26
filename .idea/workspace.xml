@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
-      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/hw/version3/DaoCRUDRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/hw/version3/DaoCRUDRepository_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/hw/version3/MainDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/hw/version3/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/homework/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/homework/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/homework/Catalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/homework/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/homework/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/homework/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/homework/db-scripts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/version2/DaoCRUDRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/version2/DaoCRUDRepository_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/version2/MainDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/version2/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/h2/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5.1/src/main/java/com/flamexander/hibernate/h2/UserDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +89,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeProjects\SpringGeekBrains\Task5\src\main\java\com\geekbraims\hibernate" />
+      <recent name="C:\IdeProjects\SpringGeekBrains\Task5.1\src\main\java\com\flamexander\hibernate\h2" />
       <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task5\src\main\java" />
       <recent name="C:\IdeProjects\SpringGeekBrains\Task5\src" />
       <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task5\src\main\java\com\geekbrains\hibernate" />
-      <recent name="C:\IdeProjects\SpringGeekBrains" />
-      <recent name="C:\IdeProjects\SpringGeekBrains\Task4.1\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IdeProjects\SpringGeekBrains\Task5\src" />
@@ -412,7 +420,13 @@
       <option name="presentableId" value="LOCAL−00039" />
       <updated>1661459751756</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL−00040" summary="Spring">
+      <created>1661532974306</created>
+      <option name="number" value="LOCAL−00040" />
+      <option name="presentableId" value="LOCAL−00040" />
+      <updated>1661532974306</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
