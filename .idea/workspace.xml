@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
-      <change afterPath="$PROJECT_DIR$/Task6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task6/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/src/main/java/com/geekbrains/hibernate2/Lesson/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/src/main/java/com/geekbrains/hibernate2/Lesson/ContactType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/src/main/java/com/geekbrains/hibernate2/Lesson/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/src/main/java/com/geekbrains/hibernate2/Lesson/MainLesson6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/src/main/java/com/geekbrains/hibernate2/Lesson/Passport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/src/main/java/com/geekbrains/hibernate2/Lesson/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/src/main/java/com/geekbrains/hibernate2/Lesson/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/version2/DaoCRUDRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/version2/DaoCRUDRepository_.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/version2/MainDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/src/main/java/com/geekbraims/hibernate/version2/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task6/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/IdeProjects/SpringGeekBrains/Task6/src/main/resources",
+    "last_opened_file_path": "C:/IdeProjects/SpringGeekBrains/Task6/src/main/java/com/geekbrains/hibernate2/Lesson",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -86,11 +86,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeProjects\SpringGeekBrains\Task6\src\main\java\com\geekbrains\hibernate2\Lesson" />
       <recent name="C:\IdeProjects\SpringGeekBrains\Task6\src\main\resources" />
       <recent name="C:\IdeProjects\SpringGeekBrains\Task6\src\main\java\com\geekbrains\hibernate2" />
       <recent name="C:\IdeProjects\SpringGeekBrains\Task5\src\main\java\com\geekbraims\hibernate" />
       <recent name="C:\IdeProjects\SpringGeekBrains\Task5.1\src\main\java\com\flamexander\hibernate\h2" />
-      <recent name="C:\Users\umbre\IdeaProjects\SpringGeekBrains\Task5\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IdeProjects\SpringGeekBrains\Task5\src" />
@@ -103,6 +103,40 @@
       <recent name="com.market.web" />
       <recent name="com.geekbrains.spring" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.MainLesson6">
+    <configuration name="MainDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbraims.hibernate.hw.version3.MainDao" />
+      <module name="Task5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbraims.hibernate.hw.version3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainLesson6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.hibernate2.Lesson.MainLesson6" />
+      <module name="Task6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.hibernate2.Lesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainLesson6" />
+        <item itemvalue="Application.MainDao" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -359,7 +393,13 @@
       <option name="presentableId" value="LOCAL−00041" />
       <updated>1661533852126</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL−00042" summary="Spring">
+      <created>1661535026023</created>
+      <option name="number" value="LOCAL−00042" />
+      <option name="presentableId" value="LOCAL−00042" />
+      <updated>1661535026023</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
