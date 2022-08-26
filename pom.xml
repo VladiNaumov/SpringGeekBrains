@@ -23,6 +23,7 @@
         <module>Task4.1</module>
         <module>Task5</module>
         <module>Task5.1</module>
+        <module>Task6</module>
     </modules>
 
     <properties>
