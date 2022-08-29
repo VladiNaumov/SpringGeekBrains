@@ -62,7 +62,7 @@ public class Product {
     @Override
     public String toString() {
 
-            return String.format("Student [id = %d, name = %s ]", id, name);
+            return String.format("Product [id = %d, name = %s ]", id, name);
 
     }
 }

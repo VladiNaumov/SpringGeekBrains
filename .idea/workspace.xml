@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="869edfc1-bc96-4fb1-a30a-f7f588bce77f" name="Changes" comment="Spring" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +66,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/IdeProjects/SpringGeekBrains",
+    "last_opened_file_path": "C:/IdeProjects/SpringGeekBrains/Task6/src/main/resources",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -77,11 +75,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\IdeProjects\SpringGeekBrains\Task6\src\main\java" />
       <recent name="C:\IdeProjects\SpringGeekBrains\Task6\src\main\resources" />
+      <recent name="C:\IdeProjects\SpringGeekBrains\Task6\src\main\java\com\geekbrains\hibernate2\homework" />
+      <recent name="C:\IdeProjects\SpringGeekBrains\Task6\src\main\java" />
       <recent name="C:\IdeProjects\SpringGeekBrains\Task6" />
       <recent name="C:\IdeProjects\SpringGeekBrains\Task5\src\main\java\com\geekbraims\hibernate" />
-      <recent name="C:\IdeProjects\SpringGeekBrains\Task5.1\src\main\java\com\flamexander\hibernate\h2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IdeProjects\SpringGeekBrains\Task6\src\main" />
@@ -357,7 +355,13 @@
       <option name="presentableId" value="LOCAL−00042" />
       <updated>1661672599417</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL−00043" summary="Spring">
+      <created>1661723030064</created>
+      <option name="number" value="LOCAL−00043" />
+      <option name="presentableId" value="LOCAL−00043" />
+      <updated>1661723030064</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -60,6 +60,6 @@ public class Customer {
 
     @Override
     public String toString() {
-        return  String.format("University [id = %d, title = %s, students_count = %d]", id, name, product.size());
+        return  String.format("University [id = %d, title = %s, name = %d]", id, name, product.size());
     }
 }
