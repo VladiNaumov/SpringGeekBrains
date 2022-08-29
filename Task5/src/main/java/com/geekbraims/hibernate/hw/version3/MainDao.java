@@ -22,7 +22,6 @@ public class MainDao {
         try {
 
             DaoCRUDRepository daoCRUDRepository = new DaoCRUDRepository(entityManagerFactory);
-            DaoCRUDRepository_ daoCRUDRepository_ = new DaoCRUDRepository_(entityManagerFactory);
 
             /* */
             daoCRUDRepository.findAll();
