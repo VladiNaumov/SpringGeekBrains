@@ -1,6 +1,6 @@
-package com.geekbraims.hibernate.hw.version2.connect;
+package com.geekbraims.hibernate.hw.EntityManager.connect;
 
-import com.geekbraims.hibernate.hw.version2.model.Product;
+import com.geekbraims.hibernate.hw.EntityManager.model.Product;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import org.hibernate.cfg.Configuration;

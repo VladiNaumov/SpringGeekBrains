@@ -1,4 +1,4 @@
-package com.geekbraims.hibernate.hw.version1;
+package com.geekbraims.hibernate.hw.SessionFactory;
 
 public class RunApp {
     public static void main(String[] args) {

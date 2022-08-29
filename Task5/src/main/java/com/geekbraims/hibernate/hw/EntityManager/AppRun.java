@@ -1,9 +1,9 @@
-package com.geekbraims.hibernate.hw.version2;
+package com.geekbraims.hibernate.hw.EntityManager;
 
 
-import com.geekbraims.hibernate.hw.version2.model.Product;
-import com.geekbraims.hibernate.hw.version2.connect.ManagerFactoryUtil;
-import com.geekbraims.hibernate.hw.version2.repository.ProductDao;
+import com.geekbraims.hibernate.hw.EntityManager.model.Product;
+import com.geekbraims.hibernate.hw.EntityManager.connect.ManagerFactoryUtil;
+import com.geekbraims.hibernate.hw.EntityManager.repository.ProductDao;
 
 public class AppRun {
 

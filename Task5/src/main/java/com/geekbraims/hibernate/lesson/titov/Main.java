@@ -1,4 +1,4 @@
-package com.geekbraims.hibernate.lesson;
+package com.geekbraims.hibernate.lesson.titov;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;

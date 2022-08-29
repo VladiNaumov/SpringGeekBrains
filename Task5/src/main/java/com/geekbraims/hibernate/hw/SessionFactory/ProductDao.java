@@ -1,4 +1,4 @@
-package com.geekbraims.hibernate.hw.version1;
+package com.geekbraims.hibernate.hw.SessionFactory;
 
 import org.hibernate.Session;
 

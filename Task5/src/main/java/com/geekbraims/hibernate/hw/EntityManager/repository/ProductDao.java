@@ -1,7 +1,7 @@
-package com.geekbraims.hibernate.hw.version2.repository;
+package com.geekbraims.hibernate.hw.EntityManager.repository;
 
-import com.geekbraims.hibernate.hw.version2.model.Product;
-import com.geekbraims.hibernate.hw.version2.connect.ManagerFactoryUtil;
+import com.geekbraims.hibernate.hw.EntityManager.model.Product;
+import com.geekbraims.hibernate.hw.EntityManager.connect.ManagerFactoryUtil;
 
 import java.util.List;
 
